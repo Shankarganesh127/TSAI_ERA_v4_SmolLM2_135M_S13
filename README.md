@@ -180,6 +180,15 @@ LlamaForCausalLM(
 
 <img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/9b13aa87-8163-4e08-ae46-3b3c61669fcc" />
 
+
+Token Embeddings               28,311,552      19.16%
+Attention (QKV + O)            39,813,120      26.94%
+MLP                            79,626,240      53.88%
+Norms                              35,136       0.02%
+Output Head                             0       0.00%
+
+Total parameters: 147,786,048
+
 Token indices sequence length is longer than the specified maximum sequence length for this model (341094 > 8192). Running this sequence through the model will result in indexing errors
 Loaded 341094 tokens
 1 epoch = 20 batches
@@ -261,6 +270,6 @@ Training: 100%|██████████| 500/500 [06:30<00:00,  1.28it/s, 
 🎉 Training finished!
 
 
-details in ERA_v4_S13.ipynb notebook logs
+details in #ERA_v4_S13.ipynb notebook logs
 
 
