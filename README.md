@@ -179,3 +179,10 @@ LlamaForCausalLM(
 )
 
 <img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/9b13aa87-8163-4e08-ae46-3b3c61669fcc" />
+
+
+<img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/4328b9ea-251b-4513-87c6-f9a434641ef9" />
+
+<img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/408105e9-88c4-42d5-85a6-7abe10d1fb97" />
+
+
