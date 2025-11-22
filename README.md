@@ -151,17 +151,31 @@ This Space provides an interactive UI where you can:
 
 ---
 
-# 📫 Contact
+LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(49152, 576)
+    (layers): ModuleList(
+      (0-29): 30 x LlamaDecoderLayer(
+        (self_attn): LlamaAttentionSDPA(
+          (q_proj): Linear(in_features=576, out_features=576, bias=False)
+          (k_proj): Linear(in_features=576, out_features=192, bias=False)
+          (v_proj): Linear(in_features=576, out_features=192, bias=False)
+          (o_proj): Linear(in_features=576, out_features=576, bias=False)
+          (rope): RotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=576, out_features=1536, bias=False)
+          (up_proj): Linear(in_features=576, out_features=1536, bias=False)
+          (down_proj): Linear(in_features=1536, out_features=576, bias=False)
+          (act): SiLU()
+        )
+        (input_layernorm): RMSNorm()
+        (post_attention_layernorm): RMSNorm()
+      )
+    )
+    (norm): RMSNorm()
+  )
+  (lm_head): Linear(in_features=576, out_features=49152, bias=False)
+)
 
-If you have questions, improvements, or want to contribute, feel free to open an Issue or PR.
-
----
-
-If you'd like, I can also prepare:
-
-✅ A polished **Model Card**
-✅ A **diagram** of your architecture
-✅ HF-compatible **model_index.json**
-✅ A **Space Demo GIF preview** for the README
-
-Just tell me!
+<img width="283" height="331" alt="image" src="https://github.com/user-attachments/assets/9b13aa87-8163-4e08-ae46-3b3c61669fcc" />
