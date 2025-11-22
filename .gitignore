@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+checkpoints
+Huggingface_smollm2_135m
+Huggingface_space
+models--HuggingFaceTB--SmolLM2-135M
+SmolLM-135M
+
